@@ -1,8 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
+import { FaLocationArrow } from "react-icons/fa6";
+
 import { projects } from "@/data";
-import React from "react";
-import { PinContainer } from "./3d-pin";
-import { FaLocationArrow } from "react-icons/fa";
+import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
